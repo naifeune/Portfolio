@@ -24,3 +24,6 @@ _ReSharper*/
 node_modules/
 bower_components/
 assets/bootstrap/
+# Ignorer les fichiers Bootstrap dans wwwroot/lib
+wwwroot/lib/bootstrap/
+wwwroot/lib/bootstrap/dist
