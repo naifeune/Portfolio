@@ -1,0 +1,50 @@
+﻿@page
+@model PortfolioWeb.Pages.ProjectsModel
+@{
+    ViewData["Title"] = "Projects";
+}
+<h1>@ViewData["Title"]</h1>
+
+<p>Use this page to detail your projects.</p>
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="~/css/style.css">
+</head>
+<body>
+    <style>
+        p {
+            margin: 0;
+            line-height: 1.2; /* Réduit l'espace interne entre les lignes */
+        }
+    </style>
+    <section>
+        <h2>app to encrypt/decrypt string</h2>
+        <p>WPF</p>
+        <p>TDD</p>
+        <p>SOLID</p>
+        <img src="~/Images/crypteurscreen.png" alt="Description de l'image" width="500" height="300">
+    </section>
+
+    <section>
+        <h2>program to execute SQL query on a Excel file</h2>
+        <p>Console</p>
+        <p>XLQL --data-file EXCEL.xls --sqlQuery Query.txt</p>
+        <p>TDD</p>
+        <p>package: SQLite, commandline</p>
+        <p>Design patterns: Disposal, energy ...</p>
+        <p>Agillity</p>
+        <img src="~/Images/crypteurscreen.png" alt="Description de l'image" width="500" height="300">
+    </section>
+
+    <footer>
+        <p>Contactez-moi à <a href="mailto:nathan.dauny@gmail.com">nathan.dauny@gmail.com</a></p>
+    </footer>
+
+    <script src="~/js/script.js"></script>
+</body>
+</html>

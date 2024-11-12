@@ -1,0 +1,26 @@
+# Visual Studio
+.vs/
+.vscode/
+# Repositories locaux de Visual Studio
+.vs2019/
+# Build results
+bin/
+obj/
+# Fichiers utilisateur de Visual Studio
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+# Fichiers de configuration de l'IDE
+.idea/
+# Configuration pour les outils de l'éditeur
+.vscode/
+# Cache de Node.js (si tu utilises Node.js dans le projet)
+node_modules/
+# Caches de l'éditeur, tels que ReSharper ou Rider
+_ReSharper*/
+*.DotSettings.user
+# Ignorer Bootstrap et les dépendances externes
+node_modules/
+bower_components/
+assets/bootstrap/
